@@ -31,3 +31,12 @@ p::selection {
   background: black;
   color: red;
 }
+
+.rick::after,
+.rick::before {
+  content: "🥒 🥒 🥒 🥒 🥒 🥒 🥒 🥒 ";
+}
+
+body::-webkit-scrollbar {
+  background-color: blue;
+}
